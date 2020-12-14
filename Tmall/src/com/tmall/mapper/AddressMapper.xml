@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="com.tmall.dao.AddressDao">
+  <insert id="insert">
+  insert into address(userid,name,phone,area,address_lable) values
+  (#{userid},#{name},#{phone},#{area},#{address_lable})
+  </insert>
+  <delete id="delete">
+  delete from address where id =#{id}
+  </delete>
+  <update id="update">
+  update address set name=#{name},phone=#{phone},area=#{area},address_lable=#{address_lable} where id = #{id}
+  </update>
+  <select id="selectAll" resultType="com.tmall.bean.Address">
+  select * from address where userid=#{userid}
+  </select>
+  <select id="findById" resultType="com.tmall.bean.Address">
+  select * from address where id=#{id}
+  </select>
+  </mapper>

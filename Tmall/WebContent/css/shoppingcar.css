@@ -1,0 +1,193 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	text-align: center;
+}
+a
+{
+	color: #000000;
+	text-decoration: none;
+	display: block;
+}
+
+#shoppingcar
+{
+	width: 1100px;
+	float: left;
+	margin-left: 120px;
+}
+#shoppingcar img
+{
+	float: left;
+}
+#top_input
+{
+	width: 450px;
+	height: 30px;
+	float: right;
+	margin-top: 30px;
+	border: 3px solid #ff5500;
+}
+#top_input input
+{
+	width: 362px;
+	height: 27px;
+	float: right;
+	outline: none;
+	border: none;
+}
+#top_input button
+{
+	width: 80px;
+	height: 30px;
+	font-size: 19px;
+	font-weight: 500;
+	float: right;
+	border: none;
+	outline: none;
+	color: #ffffff;
+	background-color: #ff5500;
+}
+#middle
+{
+	width: 1100px;
+	float: left;
+	margin-top: 10px;
+}
+#middle_top
+{
+	width: 1100px;
+	height: 30px;
+	margin-top: 10px;
+	border-bottom: 1px solid darkgray;
+}
+#middle_top p
+{
+	width: 100px;
+	float: left;
+	margin-top: 5px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ff5500;
+	border-bottom: 2px solid #ff5500;
+}
+#middle_top a
+{
+	float: right;
+	margin-top: 5px;
+}
+
+
+
+table 
+{
+	width: 1100px;
+	float: left;
+	margin-top: 15px;
+	border-collapse: collapse;
+}
+table,table tr th, table tr td 
+{ 
+	font-size: 13px; 
+}
+#table_top
+{
+	background-color: gainsboro;
+}
+#row1
+{
+	width: 160px;
+	height: 30px;
+}
+#row1 input,p
+{
+	float: left;
+	margin-left: 20px;
+}
+#row2
+{
+	width: 220px;
+	height: 30px;
+}
+#row3
+{
+	width: 140px;
+	height: 30px;
+	color: darkgray;
+}
+
+#row4
+{
+	width: 140px;
+	height: 30px;
+}
+#row5
+{
+	width: 160px;
+	height: 30px;
+}
+#row6
+{
+	width: 140px;
+	height: 30px;
+}
+
+#table_middle img
+{
+	float: right;
+}
+.price
+{
+	font-weight: 700;
+	font-size: 14px;
+}
+.btn button
+{
+	width: 30px;
+	height: 30px;
+	border-style: none;
+	background-color: #e0e0e0;
+	outline: none;
+}
+.btn input
+{
+     width: 30px;
+     height: 30px;
+     border-style: none;
+     text-align: center;       
+}
+.totle
+{
+	font-weight: 700;
+	color: #ff5500;
+	font-size: 14px;
+}
+
+#table_bottom a
+{
+	float: left;
+	margin-left: 30px;
+}
+#table_bottom span
+{
+	color: #ff5500;
+	font-weight: 700;
+	font-size: 18px;
+}
+#table_bottom button
+{
+	width: 120px;
+	height: 40px;
+	border: none;
+	outline: none;
+	color: white;
+	font-size: 16px;
+	background-color: #ff5500;
+}
+
+
+

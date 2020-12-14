@@ -1,0 +1,255 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	text-align: center;
+}
+a
+{
+	color: #000000;
+	text-decoration: none;
+	display: block;
+}
+
+#hufushow
+{
+	width: 1360px;
+	height: 600px;
+	
+}
+#top img
+{
+	float: left;
+}
+#top_input
+{
+	width: 450px;
+	height: 30px;
+	float: left;
+	margin-left: 550px;
+	margin-top: 30px;
+	border: 3px solid #d90d28;
+}
+#top_input input
+{
+	width: 360px;
+	height: 24px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 0px;
+	border: none;
+	outline: none;
+}
+#top_input button
+{
+	width: 80px;
+	height: 27px;
+	float: right;
+	margin-right:-1px;
+	border: none;
+	color: white;
+	font-size: 16px;
+	
+	background-color: #d90d28;
+}
+#middle
+{
+	width: 1200px;
+	height: 500px;
+	float: left;
+	margin-left: 70px;
+	
+}
+
+#middle_right
+{
+	width: 510px;
+	height: 400px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 20px;	
+}
+#middle_right p
+{
+	float: left;
+	font-weight: 700;
+}
+#hufulogo
+{
+	width: 510px;
+	height: 40px;
+	background-image: url(../img/hufulogo.png);
+}
+#hufulogo span
+{
+	color: white;
+	float: left;
+	margin-left: 160px;
+	margin-top: 14px;
+	font-size: 13px;
+}
+#hufulogo p
+{
+	color: yellow;
+	float: left;
+	margin-left: 298px;
+	margin-top: -19px;
+	font-size: 13px;
+}
+
+#middle_right_middle
+{
+	width: 510px;
+	height: 300px;
+	float: left;
+}
+#middle_right_middle p
+{
+	float: left;
+	font-size: 13px;
+	font-weight: 500;
+	margin-left: 40px;
+	color: darkgray;
+}
+#price p
+{
+	margin-top: 30px;
+}
+#price span
+{
+	float: left;
+	margin-left: 40px;
+	font-size: 25px;
+	margin-top: 18px;
+	color: red;
+	font-weight: 700;
+}
+#price img
+{
+	float: left;
+	margin-left: 5px;
+	
+}
+#edition
+{
+	margin-top: 60px;
+}
+
+#edition span
+{
+	float: left;
+	margin-left: 10px;
+	font-size: 14px;
+}
+#edition1 input
+{
+	float: left;
+	margin-left: 40px;
+	margin-top: 3px;
+}
+#edition2 input
+{
+	float: left;
+	margin-left: 106px;
+	margin-top: 3px;
+}
+#edition3 input
+{
+	float: left;
+	margin-left: 106px;
+	margin-top: 3px;
+}
+
+#color
+{
+	margin-top: 30px;
+}
+#color span
+{
+	float: left;
+	margin-left: 10px;
+	font-size: 14px;
+}
+#color input
+{
+	float: left;
+	margin-left: 40px;
+	margin-top: 3px;
+}
+
+
+#caradd img
+{
+	width: 23px;
+	height: 23px;
+	float: left;
+	margin-left: 35px;
+}
+#caradd span
+{
+	float: left;
+}
+
+.collect button
+{
+	width: 180px;
+	height: 40px;
+	font-size: 18px;
+	float: left;
+	
+	margin-top: 50px;
+	color: #ff0c38;
+	border: 1px solid #ff0c38;
+}
+#caradd button
+{
+	width: 180px;
+	height: 40px;
+	margin-top: 50px;
+	font-size: 18px;
+	border: none;
+	color: white;
+	background-color: #ff0c38;
+}
+
+
+
+#small
+{
+	width: 400px;
+	height: 400px;
+	
+	margin-left: 100px;
+	margin-top: 20px;
+	float: left;
+	position: relative;				
+}
+#small img
+{
+	width: 400px;
+	height: 400px;			
+}			
+#big 
+{
+	width: 400px;
+	height: 400px;
+	background-image: url(../img/hufugoods1.png);
+	border: 1px solid #999999;
+	float: left;
+	margin-left: 520px;
+	margin-top: 20px;
+	display: none;
+	position: absolute;
+}
+#search
+{
+	width: 120px;
+	height: 120px;
+	background-color: #999999;
+	opacity: 0.5;
+	display: none;
+	position: absolute;
+}

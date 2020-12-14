@@ -1,0 +1,228 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	text-align: center;
+}
+a
+{
+	color: #000000;
+	text-decoration: none;
+	display: block;
+}
+
+#shoppingshow
+{
+	width: 1360px;
+	height: 600px;
+	
+}
+#top img
+{
+	float: left;
+}
+#top_input
+{
+	width: 450px;
+	height: 30px;
+	float: left;
+	margin-left: 550px;
+	margin-top: 30px;
+	border: 3px solid #d90d28;
+}
+#top_input input
+{
+	width: 360px;
+	height: 24px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 0px;
+	border: none;
+	outline: none;
+}
+#top_input button
+{
+	width: 80px;
+	height: 27px;
+	float: right;
+	margin-right:-1px;
+	border: none;
+	color: white;
+	font-size: 16px;
+	
+	background-color: #d90d28;
+}
+#middle
+{
+	width: 1200px;
+	height: 500px;
+	float: left;
+	margin-left: 70px;
+	
+}
+
+#small
+{
+	width: 400px;
+	height: 400px;
+	
+	margin-left: 100px;
+	margin-top: 20px;
+	float: left;
+	position: relative;				
+}
+#small img
+{
+	width: 400px;
+	height: 400px;			
+}			
+#big 
+{
+	width: 400px;
+	height: 400px;
+	background-image: url(../img/goods1.png);
+	border: 1px solid #999999;
+	float: left;
+	margin-left: 520px;
+	margin-top: 20px;
+	display: none;
+	position: absolute;
+}
+#search
+{
+	width: 100px;
+	height: 100px;
+	background-color: #999999;
+	opacity: 0.5;
+	display: none;
+	position: absolute;
+}
+
+#middle_right
+{
+	width: 510px;
+	height: 400px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 20px;
+	
+}
+#middle_right p
+{
+	float: left;
+	font-weight: 700;
+}
+#middle_right img
+{
+	float: left;
+}
+#middle_right_middle
+{
+	width: 510px;
+	height: 300px;
+	float: left;
+}
+#middle_right_middle p
+{
+	float: left;
+	font-size: 13px;
+	font-weight: 500;
+	margin-left: 40px;
+	color: darkgray;
+}
+#price p
+{
+	margin-top: 30px;
+}
+#price span
+{
+	float: left;
+	margin-left: 50px;
+	font-size: 25px;
+	margin-top: 18px;
+	color: red;
+	font-weight: 700;
+}
+#color
+{
+	margin-top: 60px;
+}
+#color input
+{
+	float: left;
+	margin-left: 30px;
+	margin-top: 3px;
+}
+#color span
+{
+	float: left;
+	margin-left: 10px;
+	font-size: 14px;
+}
+#size
+{
+	margin-top: 30px;
+}
+#sizeS input
+{
+	float: left;
+	margin-left: 57px;
+	margin-top: 3px;
+}
+#sizeM input
+{
+	float: left;
+	margin-left: 50px;
+	margin-top: 3px;
+}
+#sizeL input
+{
+	float: left;
+	margin-left: 45px;
+	margin-top: 3px;
+}
+
+#size span
+{
+	float: left;
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+
+
+.collect button
+{
+	width: 180px;
+	height: 40px;
+	font-size: 18px;
+	float: left;
+	
+	margin-top: 80px;
+	color: #ff0c38;
+	border: 1px solid #ff0c38;
+}
+#caradd button
+{
+	width: 180px;
+	height: 40px;
+	margin-top: 80px;
+	font-size: 18px;
+	border: none;
+	color: white;
+	background-color: #ff0c38;
+}
+#caradd img
+{
+	width: 23px;
+	height: 23px;
+	margin-left: 35px;
+}
+#caradd span
+{
+	float: left;
+}
+

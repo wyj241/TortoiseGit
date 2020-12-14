@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="com.tmall.dao.ProductcarDao">
+  <select id="findAll" resultType="com.tmall.bean.Productcar">
+  select allproduct.*,car.size,car.num,car.color,car.money from allproduct,car where car.userid=#{user_id} and allproduct.pid=car.pid
+  </select>
+ <update id="update" parameterType="com.tmall.bean.Productcar">
+ update allproduct set num=#{num} where pid=#{pid}
+ </update>
+  </mapper>

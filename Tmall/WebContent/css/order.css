@@ -1,0 +1,213 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	text-align: center;
+}
+a
+{
+	color: #000000;
+	text-decoration: none;
+	display: block;
+}
+#top
+{
+	width: 1365px;
+	height: 60px;
+	float: left;
+	background-image: url(../img/userlisttop.png);
+}
+#top_input
+{
+	width: 325px;
+	height: 28px;
+	margin-left: 946px;
+	margin-top: 17px;
+}
+#top_input input
+{
+	width: 255px;
+	height: 28px;
+	float: left;
+	border: none;
+	outline: none;
+}
+#top_input button
+{
+	width: 70px;
+	height: 28px;
+	float: right;
+	border: none;
+}
+#middle
+{
+	width: 1060px;
+	float: left;
+	margin-left: 150px;
+}
+#middle_left
+{
+	width: 160px;
+	float: left;
+	margin-top: 20px;
+}
+#middle_left p
+{
+	color: red;
+}
+#middle_left a
+{
+	margin-top: 10px;
+}
+#middle_left a:hover
+{
+	color: red;
+}
+
+#middle_right_top
+{
+	float: left;
+	width: 900px;
+	height: 48px;
+	margin-top: 30px;
+	border-bottom: 1px solid gray;
+}
+#middle_right_top_left
+{
+	width: 600px;
+	height: 48px;
+	float: left;
+	display:flex;
+	align-items: center;
+	font-weight: 700;
+}
+#middle_right_top a
+{
+	margin-left: 60px;
+}
+#middle_right_top a:hover
+{
+	color: #ff5500;
+}
+#middle_input
+{
+	width: 300px;
+	height: 25px;
+	float: left;
+	margin-top: 30px;
+	border: 1px solid darkgray;
+}
+#middle_input button
+{
+	float: right;
+	width: 80px;
+	height: 25px;
+	border: none;
+}
+#middle_input input
+{
+	width: 216px;
+	font-size: 12px;
+	border: none;
+	outline: none;
+}
+
+#middle_right_bottom
+{
+	width: 900px;
+	float: left;
+}
+
+table 
+{
+	width: 900px;
+	float: right;
+	margin-top: 30px;
+	border-collapse: collapse;
+}
+table,table tr th, table tr td 
+{ 
+	font-size: 13px; 
+}
+
+#table_top
+{
+	background-color: gainsboro;
+}
+#row1
+{
+	width: 80px;
+	height: 30px;
+}
+#row2
+{
+	width: 200px;
+	height: 30px;
+}
+#row3
+{
+	width: 190px;
+	height: 30px;
+}
+
+#row4
+{
+	width: 140px;
+	height: 30px;
+}
+#row5
+{
+	width: 140px;
+	height: 30px;
+}
+
+#row1 img
+{
+	float: left;
+	width: 80px;
+	height: 80px;
+}
+#row6
+{
+	font-weight: 700;
+	font-size: 14px;
+}
+
+#table1
+{
+	margin-top: 0px;
+	border: 1px solid #aedcc5;
+}
+#ordertime
+{
+	width: 900px;
+	height: 30px;
+	float: left;
+	margin-top: 30px;
+	background-color: #aedcc5;
+}
+#ordertime p
+{
+	float: left;
+	font-weight: 700;
+	margin-top: 5px;
+	font-size: 13px;
+}
+#ordertime span
+{
+	float: left;
+	margin-left: 20px;
+	margin-top: 6px;
+	font-size: 13px;
+}
+
+#bottom img
+{
+	width: 1000px;
+	margin-top: 50px;
+}
+
+

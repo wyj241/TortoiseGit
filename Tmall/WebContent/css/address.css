@@ -1,0 +1,251 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	text-align: center;
+}
+a
+{
+	color: #000000;
+	text-decoration: none;
+	display: block;
+}
+#top
+{
+	width: 1365px;
+	height: 60px;
+	float: left;
+	background-image: url(../img/userlisttop.png);
+}
+
+#top_input
+{
+	width: 325px;
+	height: 28px;
+	margin-left: 946px;
+	margin-top: 17px;
+}
+#top_input input
+{
+	width: 255px;
+	height: 28px;
+	float: left;
+	border: none;
+	outline: none;
+}
+#top_input button
+{
+	width: 70px;
+	height: 28px;
+	float: right;
+	border: none;
+}
+#middle
+{
+	width: 1100px;
+	height: 500px;
+	float: left;
+	margin-left: 150px;
+}
+#middle_left
+{
+	width: 160px;
+	height: 150px;
+	float: left;
+	margin-top: 20px;
+}
+#middle_left p
+{
+	color: red;
+}
+#middle_left a
+{
+	margin-top: 10px;
+}
+#middle_right p
+{
+	color: #0081C2;
+	float: left;
+	margin-top: 20px;
+}
+#middle_add
+{
+	width: 500px;
+	height: 240px;
+	float: left;
+	margin-left: -70px;
+	margin-top: 40px;
+}
+#middle_add p
+{
+	float: left;
+	font-size: 13px;
+	color: red;
+}
+#middle_add_input
+{
+	width: 500px;
+	height: 200px;
+	float: left;
+}
+#middle_add_input p
+{
+	float: left;
+	color: gray;
+}
+#middle_add_input input
+{
+	float: left;
+}
+#receiver
+{
+	height: 30px;
+	float: left;
+	margin-left: 6px;
+	margin-top: 15px;
+}
+#receiver p
+{
+	line-height: 0px;
+}
+#receiver input
+{
+	width: 300px;
+	height: 25px;
+	margin-top: 6px;
+	outline: none;
+}
+#telphone
+{
+	height: 30px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+#telphone p
+{
+	line-height: 0px;
+}
+#telphone input
+{
+	width: 300px;
+	height: 25px;
+	margin-top: 6px;
+	outline: none;
+}
+#addressmsg
+{
+	height: 30px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+#addressmsg p
+{
+	line-height: 0px;
+}
+#addressmsg input
+{
+	width: 300px;
+	height: 25px;
+	margin-top: 6px;
+	outline: none;
+}
+#addressadd
+{
+	height: 30px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+#addressadd p
+{
+	line-height: 0px;
+}
+#addressadd input
+{
+	width: 300px;
+	height: 25px;
+	margin-top: 6px;
+	outline: none;
+}
+#middle_add button
+{
+	width: 50px;
+	height: 25px;
+	float: left;
+	margin-left: 90px;
+	border: none;
+	outline: none;
+	color: white;
+	background-color: #0055ff
+}
+#middle_img img
+{
+	float: left;
+	margin-top: 40px;
+	margin-left: 160px;
+}
+
+#middle_img p
+{
+	float: left;
+	font-size: 13px;
+	color: gray;
+	margin-left: 200px;
+	margin-top: -30px;
+}
+
+table 
+{
+	float: left;
+	margin-left: 160px;
+	margin-top: 20px;
+	border-collapse: collapse;
+}
+table,table tr th, table tr td 
+{ 
+	font-size: 13px;
+	border:1px solid gray; 
+}
+#table_back
+{
+	background-color: gainsboro;
+}
+#row1
+{
+	width: 80px;
+	height: 30px;
+}
+#row2
+{
+	width: 150px;
+	height: 30px;
+}
+#row3
+{
+	width: 300px;
+	height: 30px;
+}
+#row4
+{
+	width: 200px;
+	height: 30px;
+}
+#row5
+{
+	width: 110px;
+	height: 30px;
+}
+#table_text th
+{
+	font-weight: 500;
+}
+#table_text a
+{
+	float: left;
+	margin-left: 20px;
+}

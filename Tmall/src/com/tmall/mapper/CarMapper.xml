@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="com.tmall.dao.CarDao">
+  <insert id="insert">
+  insert into car(userid,pid,size,color) values(#{userid},#{pid},#{size},#{color})
+  </insert>
+ <delete id="delete">
+ delete from car where pid=#{pid}
+ </delete>
+ <update id="update">
+ update car set num=#{num},money=#{money} where userid=#{userid} and pid=#{pid}
+ </update>
+ <select id="selectmoney" resultType="com.tmall.bean.Car">
+ select * from car where userid=#{userid}
+ </select>
+  </mapper>

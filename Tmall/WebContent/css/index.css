@@ -1,0 +1,427 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	
+}
+body
+{
+	text-align: center;
+}
+a
+{
+	color: #000000;
+	text-decoration: none;
+	display: block;
+}
+ul
+{
+	list-style: none;
+}
+
+#index
+{
+	width: 1330px;
+	
+}
+
+#header
+{
+	width: 1330px;
+	height: 30px;
+	background: #d8d8d8;
+	border-bottom:1px solid #9f9f9f;
+}
+#header1 a,p
+{
+	color: grey;
+	float: left;
+	margin-left: 30px;
+	margin-top: 7px;
+	font-size: 13px;
+}
+#header2 a
+{
+	color: grey;
+	float: right;
+	margin-right: 30px;
+	margin-top: 7px;
+	font-size: 13px;
+}
+#middle 
+{
+	width: 1330px;
+	height: 130px;
+}
+#indexlogo 
+{
+	width: 300px;
+	height: 130px;
+	float: left;
+}
+#search
+{
+	width: 500px;
+	height: 40px;
+	background: white;
+	float: left;
+	margin-left: 200px;
+	margin-top: 45px;
+	border:2px solid #d92e40;
+}
+#search input
+{
+	width: 340px;
+	height: 30px;
+	font-size: 15px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+	border:none;
+	outline: none;
+}
+#search button
+{
+	width: 151px;
+	height: 40px;
+	font-size: 18px;
+	font-weight: 700;
+	float: right;
+	border: none;
+	outline: none;
+	color: white;
+	background-color: #d92e40;
+}
+#bottom
+{
+	width: 1250px;
+	height: 500px;
+	margin-left: 50px;
+	
+}
+#bottom_left
+{
+	width: 200px;
+	height: 500px;
+	float: left;
+}
+#bottom_left_top p
+{
+	width: 200px;
+	height: 35px;
+	font-size: 18px;
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	line-height: 32px;
+	align: center;
+	color: white;
+	background: red;
+}
+
+
+#bottom_left_bottom
+{
+	width: 200px;
+	height: 465px;
+	float: left;
+	background-color: #c1c5ee;
+}
+
+#bottom_left_bottom p
+{
+	color: #000000;
+	font-size: 15px;
+	line-height: 15px;
+	font-weight: 700;
+}
+#bottom_left_bottom ul li
+{
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+}
+#bottom_left_bottom ul li ul
+{
+	width: 550px;
+	height: 465px;
+	margin-left: 200px;
+	visibility: hidden;
+	position: absolute;
+}
+#bottom_left_bottom ul li:hover {
+	background-color: wheat;
+}
+#bottom_left_bottom ul li:hover ul {
+	visibility: visible;
+}
+
+#women 
+{
+	background-color: white;
+	float: left;
+	margin-top: -30px;
+}
+#women a
+{
+	color: #aa55ff;
+	font-size: 15px;
+	float: left;
+	margin-left: 20px;
+	display:flex;
+	align-items: center;
+}
+#men 
+{
+	background-color: white;
+	float: left;
+	margin-top: -60px;
+}
+#men a
+{
+	color: #aa55ff;
+	font-size: 15px;
+	float: left;
+	margin-left: 20px;
+	display:flex;
+	align-items: center;
+}
+#shoes 
+{
+	background-color: white;
+	float: left;
+	margin-top: -90px;
+}
+#shoes a
+{
+	color: #aa55ff;
+	font-size: 15px;
+	float: left;
+	margin-left: 20px;
+	display:flex;
+	align-items: center;
+}
+#makeup 
+{
+	background-color: white;
+	float: left;
+	margin-top: -120px;
+}
+#makeup a
+{
+	color: #aa55ff;
+	font-size: 15px;
+	float: left;
+	margin-left: 20px;
+	display:flex;
+	align-items: center;
+}
+#jewelry 
+{
+	background-color: white;
+	float: left;
+	margin-top: -150px;
+}
+#jewelry a
+{
+	color: #aa55ff;
+	font-size: 15px;
+	float: left;
+	margin-left: 20px;
+	display:flex;
+	align-items: center;
+}
+#phone 
+{
+	background-color: white;
+	float: left;
+	margin-top: -180px;
+}
+#phone a
+{
+	color: #aa55ff;
+	font-size: 15px;
+	float: left;
+	margin-left: 20px;
+	display:flex;
+	align-items: center;
+}
+#baby 
+{
+	background-color: white;
+	float: left;
+	margin-top: -210px;
+}
+#baby a
+{
+	color: #aa55ff;
+	font-size: 15px;
+	float: left;
+	margin-left: 20px;
+	display:flex;
+	align-items: center;
+}
+#eat 
+{
+	background-color: white;
+	float: left;
+	margin-top: -240px;
+}
+#eat a
+{
+	color: #aa55ff;
+	font-size: 15px;
+	float: left;
+	margin-left: 20px;
+	display:flex;
+	align-items: center;
+}
+#fruit 
+{
+	background-color: white;
+	float: left;
+	margin-top: -270px;
+}
+#fruit a
+{
+	color: #aa55ff;
+	font-size: 15px;
+	float: left;
+	margin-left: 20px;
+	display:flex;
+	align-items: center;
+}
+#electric 
+{
+	background-color: white;
+	float: left;
+	margin-top: -300px;
+}
+#electric a
+{
+	color: #aa55ff;
+	font-size: 15px;
+	float: left;
+	margin-left: 20px;
+	display:flex;
+	align-items: center;
+}
+#furniture 
+{
+	background-color: white;
+	float: left;
+	margin-top: -330px;
+}
+#furniture a
+{
+	color: #aa55ff;
+	font-size: 15px;
+	float: left;
+	margin-left: 20px;
+	display:flex;
+	align-items: center;
+}
+#car 
+{
+	background-color: white;
+	float: left;
+	margin-top: -360px;
+}
+#car a
+{
+	color: #aa55ff;
+	font-size: 15px;
+	float: left;
+	margin-left: 20px;
+	display:flex;
+	align-items: center;
+}
+#house 
+{
+	background-color: white;
+	float: left;
+	margin-top: -390px;
+}
+#house a
+{
+	color: #aa55ff;
+	font-size: 15px;
+	float: left;
+	margin-left: 20px;
+	display:flex;
+	align-items: center;
+}
+#medical 
+{
+	background-color: white;
+	float: left;
+	margin-top: -420px;
+}
+#medical a
+{
+	color: #aa55ff;
+	font-size: 15px;
+	float: left;
+	margin-left: 20px;
+	display:flex;
+	align-items: center;
+}
+#cooking 
+{
+	background-color: white;
+	float: left;
+	margin-top: -450px;
+}
+#cooking a
+{
+	color: #aa55ff;
+	font-size: 15px;
+	float: left;
+	margin-left: 20px;
+	display:flex;
+	align-items: center;
+}
+
+
+
+
+
+
+
+#bottom_right
+{
+	width: 1050px;
+	margin-left: 200px;
+}
+#bottom_right_top
+{
+	background-color: #ece2da;
+	width: 1030px;
+	height: 35px;
+}
+#bottom_right_top a
+{
+	height: 35px;
+	float: left;
+	margin-left: 25px;
+	display:flex;
+	align-items: center;
+}
+#bottom_right_bottom img
+{
+	width: 1030px;
+	height: 465px;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
